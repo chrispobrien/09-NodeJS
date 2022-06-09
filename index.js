@@ -1,4 +1,4 @@
-// Packages needed
+// Packages needed, inquirer and fs are used within these js files so they are not necessary here
 const promptUser = require('./utils/promptUser');
 const generateMarkdown = require('./utils/generateMarkdown');
 const writeToFile = require('./utils/writeToFile');

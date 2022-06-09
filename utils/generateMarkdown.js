@@ -1,3 +1,5 @@
+// I removed the functions to add license parts because I thought they were not necessary
+
 // Generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title} ${data.badge}

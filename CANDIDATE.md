@@ -4,13 +4,17 @@
 
   This project is week 9 homework challenge for Columbia Engineering Coding Bootcamp (Trilogy). The objective is to make a NodeJS application that prompts the user for common topics in a good README.md file, and then formats the answers in markdown format, into a new file.
 
-  Usage video link: https://drive.google.com/file/d/1U06UxS_OQq-ED7istiIRnVGSYp6IWjPy/view?usp=sharing
+Usage video link: https://drive.google.com/file/d/1U06UxS_OQq-ED7istiIRnVGSYp6IWjPy/view?usp=sharing
+
+User story:
 
 ```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
+
+Acceptance criteria:
 
 ```
 GIVEN a command-line application that accepts user input

@@ -190,7 +190,7 @@ const badges = [
     }
 ];
 
-// Prompt user questions to fill answers object
+// Prompt user questions to fill answers object using Promise for async behavior
 const promptUser = () => {
     return new Promise((resolve, reject) => {
         inquirer.prompt(questions)
@@ -202,10 +202,12 @@ const promptUser = () => {
                 // We don't need no stinkin' badges!
                 answers.badge = '';
             };
+            // Return prompt answers
             resolve(answers);
             return;
         })
         .catch((err) => {
+            // Return error object if inquirer encountered an error
             reject(err);
             return;
         });
