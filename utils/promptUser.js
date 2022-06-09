@@ -85,7 +85,7 @@ const questions = [
         type: 'editor',
         name: 'tests',
         message: 'Enter test instructions: (Required)',
-        validate: test => {
+        validate: tests => {
             if (tests) {
                 return true;
             } else {
